@@ -23,6 +23,9 @@ describe "Static pages" do
   #   end
 
   # end
+  
+# now:
+
 subject { page }
 
   describe "Home page" do
