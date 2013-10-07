@@ -27,6 +27,7 @@ group :test do
   gem 'capybara', '2.1.0'
   gem 'rubyzip', '< 1.0.0'
   gem 'growl', '1.0.3'
+  gem 'factory_girl_rails'
 end
 
 group :doc do
