@@ -28,6 +28,8 @@ group :test do
   gem 'rubyzip', '< 1.0.0'
   gem 'growl', '1.0.3'
   gem 'factory_girl_rails'
+  gem 'cucumber-rails', '1.4.0', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
 end
 
 group :doc do
