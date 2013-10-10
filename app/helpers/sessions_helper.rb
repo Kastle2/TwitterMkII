@@ -28,8 +28,6 @@ module SessionsHelper
     self.current_user = nil
     cookies.delete(:remember_token)
   end
-<<<<<<< HEAD
-=======
 
   # friendly forwarding:
   def redirect_back_or(default)
@@ -41,5 +39,4 @@ module SessionsHelper
     session[:return_to] = request.url if request.get?
   end
 
->>>>>>> updating-users
 end
